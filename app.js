@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3000;
 app.use(bodyParser.json());
 
 // GET endpoint
-app.get('/api', (req, res) => {
+app.get('/bhfl', (req, res) => {
     res.json({ operation_code: 'success' });
 });
 
