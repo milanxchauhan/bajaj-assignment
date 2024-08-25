@@ -12,7 +12,7 @@ app.get('/api', (req, res) => {
 });
 
 // POST endpoint
-app.post('/api', (req, res) => {
+app.post('/bhfl', (req, res) => {
     const { data } = req.body;
 
     if (!Array.isArray(data)) {
